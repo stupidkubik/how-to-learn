@@ -14,7 +14,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  outline: 1px solid var(--text-color-black);
 }
 
 /* Стили для блока Header*/
@@ -42,6 +41,7 @@
   width: 730px;
   margin: 0 0 0 64px;
   font-size: 102px;
+  color: var(--text-color-black);
   font-weight: 600;
   line-height: 96px;
   z-index: 3;
@@ -54,6 +54,7 @@
   bottom: 30px;
   left: 64px;
   font-size: 18px;
+  color: var(--text-color-black);
   font-weight: normal;
   line-height: 25px;
   z-index: 3;
@@ -81,16 +82,49 @@
 
 /* Стили для блока description*/
 
-.description {
+
+.two-columns__description {
+  margin: 100px auto;
+  width: 80%;
+  outline: 1px solid var(--text-color-black);
   display: flex;
-  justify-content: center;
-  padding: 100px 0;
+  justify-content: space-between;
 }
 
-.two-columns {
-  margin: 100px;
-  width: 80%;
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--secondary-color-blue);
+  line-height: 1.2;
+  outline: 1px solid var(--text-color-black);
 }
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  outline: 1px solid var(--text-color-black);
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  font-size: 24px;
+  color: var(--text-color-black);
+  font-weight: normal;
+  line-height: 34px;
+  outline: 1px solid var(--text-color-black);
+}
+
+.two-columns__span-accent {
+  font-weight: 600;
+}
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
