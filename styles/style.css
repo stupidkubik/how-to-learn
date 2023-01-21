@@ -16,7 +16,9 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 /* Стили для блока Header*/
+
 
 .header {
   height: 100vh;
@@ -80,6 +82,7 @@
   z-index: 1;
 }
 
+
 /* Стили для блока description*/
 
 
@@ -123,6 +126,70 @@
 .two-columns__span-accent {
   font-weight: 600;
 }
+
+
+/* Стили для блока digits*/
+
+
+.section-title__digits {
+  width: 60%;
+  margin: 100px auto 20px;
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--text-color-black);
+  text-align: center;
+  line-height: 1.15;
+  outline: 1px solid var(--text-color-black);
+}
+
+.section-subtitle__digits {
+  width: 60%;
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--text-color-black);
+  text-align: center;
+  line-height: 34px;
+  margin: auto;
+  outline: 1px solid var(--text-color-black);
+}
+
+.table__digits {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  outline: 1px solid var(--text-color-black);
+}
+
+.table__cell {
+  width: 250px;
+  margin: 60px 0 0;
+  outline: 1px solid var(--text-color-black);
+}
+
+.table__heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color-black);
+  line-height: 1.15;
+  outline: 1px solid var(--text-color-black);
+}
+
+.table__text {
+  margin: 20px 0 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--text-color-black);
+  line-height: 1.2; 
+  outline: 1px solid var(--text-color-black); 
+}
+
+
+/* Стили для блока digits*/
+
+
 
 
 
