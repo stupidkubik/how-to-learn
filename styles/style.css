@@ -154,7 +154,7 @@
 }
 
 .table__digits {
-  margin: 0 auto;
+  margin: 0 auto 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -187,10 +187,62 @@
 }
 
 
-/* Стили для блока digits*/
+/* Стили для блока feynman*/
 
 
+.feynman {
+  width: 100%;
+  background-color: var(--background-color-lightgray);
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
 
+.feynman__title {
+  margin: 100px 0 0;
+  width: 648px;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 600;
+  color: var(--text-color-black);
+  line-height: 1.15;
+  outline: 1px solid var(--text-color-black);
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  margin: 70px 0 0;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--text-color-black);
+  line-height: 51px;
+  outline: 1px solid var(--text-color-black);  
+  z-index: 1;
+}
+
+.feynman__link {
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--secondary-color-blue);
+  line-height: 51px;
+  outline: 1px solid var(--text-color-black);
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.feynman__illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
 
 
 /* и элемента с модификатором вида ключ-значение */
