@@ -1,8 +1,9 @@
 :root {
   --background-color-lightgray: #f2f2f2;
   --background-color-darkgray: #1f1f1f;
-  --text-color-black: #000000;
+  --text-color-black: #000;
   --secondary-color-blue: #2f80ed;
+  --text-color-theme-dark: #fff;
 }
 
 .page {
@@ -89,7 +90,6 @@
 .two-columns__description {
   margin: 100px auto;
   width: 80%;
-  outline: 1px solid var(--text-color-black);
   display: flex;
   justify-content: space-between;
 }
@@ -101,7 +101,6 @@
   font-weight: normal;
   color: var(--secondary-color-blue);
   line-height: 1.2;
-  outline: 1px solid var(--text-color-black);
 }
 
 .two-columns__main-text {
@@ -111,7 +110,6 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  outline: 1px solid var(--text-color-black);
 }
 
 .two-columns__paragraph {
@@ -120,7 +118,6 @@
   color: var(--text-color-black);
   font-weight: normal;
   line-height: 34px;
-  outline: 1px solid var(--text-color-black);
 }
 
 .two-columns__span-accent {
@@ -138,7 +135,6 @@
   color: var(--text-color-black);
   text-align: center;
   line-height: 1.15;
-  outline: 1px solid var(--text-color-black);
 }
 .section-title__digits {
   margin: 100px auto 20px;
@@ -152,7 +148,6 @@
   color: var(--text-color-black);
   text-align: center;
   line-height: 34px;
-  outline: 1px solid var(--text-color-black);
 }
 
 .table__digits {
@@ -161,13 +156,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  outline: 1px solid var(--text-color-black);
 }
 
 .table__cell {
   width: 250px;
   margin: 60px 0 0;
-  outline: 1px solid var(--text-color-black);
 }
 
 .table__heading {
@@ -176,7 +169,6 @@
   font-weight: 600;
   color: var(--text-color-black);
   line-height: 1.15;
-  outline: 1px solid var(--text-color-black);
 }
 
 .table__text {
@@ -185,7 +177,6 @@
   font-weight: normal;
   color: var(--text-color-black);
   line-height: 1.2; 
-  outline: 1px solid var(--text-color-black); 
 }
 
 
@@ -210,7 +201,6 @@
   font-weight: 600;
   color: var(--text-color-black);
   line-height: 1.15;
-  outline: 1px solid var(--text-color-black);
   z-index: 1;
 }
 
@@ -220,7 +210,6 @@
   font-weight: normal;
   color: var(--text-color-black);
   line-height: 51px;
-  outline: 1px solid var(--text-color-black);  
   z-index: 1;
 }
 
@@ -229,7 +218,6 @@
   font-weight: normal;
   color: var(--secondary-color-blue);
   line-height: 51px;
-  outline: 1px solid var(--text-color-black);
   position: absolute;
   top: 50%;
   right: 48px;
@@ -261,53 +249,45 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  outline: 1px solid white;
 }
 
 .kaufman_theme_dark {
   background-color: var(--text-color-black);
   position: relative;
   overflow: hidden;
-  outline: 1px solid white;
 }
 
 .section-title_theme_dark {
-  color: white;
+  color: var(--text-color-theme-dark);
   z-index: 1;
-  outline: 1px solid white;
 }
 
 .section-subtitle_theme_dark {
-  color: white;
+   color: var(--text-color-theme-dark);
   z-index: 1;
-  outline: 1px solid white;
 }
 
 .table_theme_dark {
-  color: white;
+  color: var(--text-color-theme-dark);
   z-index: 1;
-  outline: 1px solid white;
 }
 
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: var(--text-color-theme-dark);
   margin-right: 0;
   margin-top: 80px;
   z-index: 1;
-  outline: 1px solid white;
 }
 
 .table__heading_theme_dark {
-  color: white;
+  color: var(--text-color-theme-dark);
   z-index: 1;
-  outline: 1px solid white;
 }
 
 .table__text_theme_dark {
-  color: white;
+  color: var(--text-color-theme-dark);
   z-index: 1;
-  outline: 1px solid white;
 }
 
 .kaufman__triangle {
@@ -323,3 +303,64 @@
 /* Стили для блока footer */
 
 
+.footer {
+  background-color: var(--text-color-black);
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  width: 90%;
+  min-height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--text-color-black);
+}
+
+.footer__columns_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--text-color-theme-dark);
+  line-height: 25px;
+}
+
+.footer__column-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color-theme-dark);
+  line-height: 30px;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__column-link > a {
+  color: var(--text-color-theme-dark);
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.footer__icon {
+  width: 16px;
+  height: 16px;
+  padding: 0 10px 0 0;
+}
