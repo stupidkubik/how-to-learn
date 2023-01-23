@@ -25,16 +25,19 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  /* выше установили ограничения для секции */
   background-color: var(--background-color-lightgray);
   display: flex;
   align-items: center;
   position: relative;
-  /* выше установили ограничения для секции */
 }
 
-.header__logo {
+.logo {
   width: 228px;
   height: 32px;
+}
+
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -84,10 +87,10 @@
 }
 
 
-/* Стили для блока description*/
+/* Стили для блока description */
 
 
-.two-columns__description {
+.description__two-columns {
   margin: 100px auto;
   width: 80%;
   display: flex;
@@ -136,13 +139,13 @@
   text-align: center;
   line-height: 1.15;
 }
-.section-title__digits {
+
+.digits__section-title {
   margin: 100px auto 20px;
 }
 
 .section-subtitle {
   width: 60%;
-  margin: auto;
   font-size: 24px;
   font-weight: normal;
   color: var(--text-color-black);
@@ -150,7 +153,11 @@
   line-height: 34px;
 }
 
-.table__digits {
+.digits__section-subtitle {
+  margin: auto;
+}
+
+.digits__table {
   margin: 0 auto 100px;
   display: flex;
   flex-wrap: wrap;
@@ -238,17 +245,32 @@
 /* Стили для блока kaufman */
 
 
-.section-title__kaufman {
+.kaufman__section-title {
   margin: 90px auto 20px;
   z-index: 1;
 }
 
-.table__kaufman {
+.kaufman__section-subtitle {
+  margin: auto;
+  z-index: 1;
+}
+
+.kaufman__table {
   margin: 0 auto 90px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  z-index: 1;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 0;
 }
 
 .kaufman_theme_dark {
@@ -259,17 +281,14 @@
 
 .section-title_theme_dark {
   color: var(--text-color-theme-dark);
-  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
    color: var(--text-color-theme-dark);
-  z-index: 1;
 }
 
 .table_theme_dark {
   color: var(--text-color-theme-dark);
-  z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -290,15 +309,6 @@
   z-index: 1;
 }
 
-.kaufman__triangle {
-  width: 877px;
-  height: 877px;
-  position: absolute;
-  top: 0;
-  right: -210px;
-  z-index: 0;
-}
-
 
 /* Стили для блока footer */
 
@@ -310,23 +320,18 @@
 
 .footer__columns {
   width: 90%;
-  min-height: 350px;
+  min-height: 250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   background-color: var(--text-color-black);
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
 }
 
 .footer__author {
@@ -359,7 +364,7 @@
   text-decoration: none;
 }
 
-.footer__icon {
+.social__icon {
   width: 16px;
   height: 16px;
   padding: 0 10px 0 0;
