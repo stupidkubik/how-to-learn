@@ -5,4 +5,10 @@
     color: var(--secondary-color-blue);
     line-height: 42px;
     text-decoration: none;
+    opacity: 1;
+}
+
+.khan__buy-link:hover {
+    opacity: .3;
+    transition: opacity 1s;
 }
