@@ -1,3 +1,5 @@
 .kaufman__table {
   margin: 0 auto 90px;
+  position: relative;
+  z-index: 3;
 }
