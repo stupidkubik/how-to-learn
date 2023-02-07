@@ -1,0 +1,7 @@
+.khan__title {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--text-color-black);
+    line-height: 1.15;
+}
