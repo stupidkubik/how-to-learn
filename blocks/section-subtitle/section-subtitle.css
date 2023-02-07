@@ -1,0 +1,8 @@
+.section-subtitle {
+    width: 60%;
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--text-color-black);
+    text-align: center;
+    line-height: 34px;
+  }
