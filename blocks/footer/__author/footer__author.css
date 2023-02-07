@@ -1,7 +1,7 @@
 .footer__author {
-    margin: 18px 0;
-    font-size: 18px;
-    font-weight: normal;
-    color: var(--text-color-theme-dark);
-    line-height: 25px;
-  }
+  margin: 18px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--text-color-theme-dark);
+  line-height: 25px;
+}

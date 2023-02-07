@@ -1,9 +1,9 @@
 .section-title {
-    width: 60%;
-    font-size: 60px;
-    font-weight: 600;
-    color: var(--text-color-black);
-    text-align: center;
-    line-height: 1.15;
-    z-index: 3;
-  }  
+  width: 60%;
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--text-color-black);
+  text-align: center;
+  line-height: 1.15;
+  z-index: 3;
+}
