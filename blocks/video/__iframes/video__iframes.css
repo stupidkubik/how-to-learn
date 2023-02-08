@@ -3,5 +3,5 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    transform: translate(0, 60px);
+    transform: translate(0, 50px);
 }
