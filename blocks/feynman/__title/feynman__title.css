@@ -8,5 +8,5 @@
   color: var(--text-color-black);
   line-height: 1.15;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }

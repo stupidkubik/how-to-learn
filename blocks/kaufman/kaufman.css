@@ -2,10 +2,4 @@
   background-color: var(--background-color-darkgray);
   position: relative;
   overflow: hidden;
-  z-index: 1;
-  /* background-image: url(/images/kaufman-triangle.svg);
-  background-size: 877px 877px;
-  background-position: top right -210px;
-  background-repeat: no-repeat;
-  animation: rotation 20s linear infinite; */
 }
